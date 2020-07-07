@@ -2,6 +2,34 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: lightgrey;
 }
-h2, p, a {
+h2, p, .readme-wrapper { 
     text-align: center;
+}
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+:hover{
+    font-weight: bold;
+    color: blue;
+}
+span {
+    color: red;
+    font-weight: bolder;
+}
+.box1, .box2, .box3, .box4 {
+    margin: 3em;
+    padding: 1em;
+    border: 5px solid blue;
+    border-radius: 10px;
+    width: 30em;
+}
+.box1 , .box3{
+    background-color: rgb(19, 179, 228);
+}
+.box2 , .box4{
+    background-color: rgb(3, 141, 141);
+}
+.container {
+    display: inline-block;
 }
